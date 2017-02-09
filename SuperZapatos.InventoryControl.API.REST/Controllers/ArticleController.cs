@@ -1,6 +1,7 @@
 ﻿using SuperZapatos.InventoryControl.API.REST.App_Start;
 using SuperZapatos.InventoryControl.Contracts.ServiceLibrary.Contracts;
 using SuperZapatos.InventoryControl.Impl.ServiceLibrary.Impl;
+using System.Diagnostics;
 using System.Linq;
 using System.Web.Http;
 
@@ -29,14 +30,10 @@ namespace SuperZapatos.InventoryControl.API.REST.Controllers
 
                 var articlesList = _articleApplicationService.GetAll().ToList();
                 return Json(new { articles = articlesList, success = true, total_elements = articlesList.Count() });
-            }
-            catch(System.Security.Authentication.InvalidCredentialException ex)
-            {
-                return Json(new { error_msg = "Server error", error_code = 500, success = false });
-            }
+            }           
             catch (System.Exception ex)
             {
-
+                Trace.TraceError(string.Concat("Error getting all articles ", ex.Message));
                 return Json(new { error_msg = "Server error", error_code = 500, success = false });
             }
           
@@ -64,9 +61,9 @@ namespace SuperZapatos.InventoryControl.API.REST.Controllers
                 }
                 return Json(new { articles = articlesList.ToList(), success = true, total_elements = articlesList.Count() });
             }
-            catch (System.Exception)
+            catch (System.Exception ex)
             {
-
+                Trace.TraceError(string.Concat("Error getting article by Id store ", ex.Message));
                 return Json(new { error_msg = "Server error", error_code = 500, success = false });
             }
           
