@@ -1,0 +1,5 @@
+D:\SuperZapatos\SuperZapatos.InventoryControl.Contracts.ServiceLibrary\bin\Debug\SuperZapatos.InventoryControl.Contracts.ServiceLibrary.dll
+D:\SuperZapatos\SuperZapatos.InventoryControl.Contracts.ServiceLibrary\bin\Debug\SuperZapatos.InventoryControl.Contracts.ServiceLibrary.pdb
+D:\SuperZapatos\SuperZapatos.InventoryControl.Contracts.ServiceLibrary\obj\Debug\SuperZapatos.InventoryControl.Contracts.ServiceLibrary.dll
+D:\SuperZapatos\SuperZapatos.InventoryControl.Contracts.ServiceLibrary\obj\Debug\SuperZapatos.InventoryControl.Contracts.ServiceLibrary.pdb
+D:\SuperZapatos\SuperZapatos.InventoryControl.Contracts.ServiceLibrary\obj\Debug\SuperZapatos.InventoryControl.Contracts.ServiceLibrary.csprojResolveAssemblyReference.cache

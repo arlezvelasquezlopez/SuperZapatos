@@ -1,0 +1,13 @@
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\bin\Debug\SuperZapatos.InventoryControl.Impl.ServiceLibrary.dll
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\bin\Debug\SuperZapatos.InventoryControl.Impl.ServiceLibrary.pdb
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\bin\Debug\SuperZapatos.InventoryContro.Library.dll
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\bin\Debug\SuperZapatos.InventoryControl.Contracts.ServiceLibrary.dll
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\bin\Debug\SuperZapatos.InvetoryControl.Infrastructure.dll
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\bin\Debug\EntityFramework.dll
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\bin\Debug\SuperZapatos.InventoryContro.Library.pdb
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\bin\Debug\SuperZapatos.InventoryControl.Contracts.ServiceLibrary.pdb
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\bin\Debug\SuperZapatos.InvetoryControl.Infrastructure.pdb
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\bin\Debug\EntityFramework.xml
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\obj\Debug\SuperZapatos.InventoryControl.Impl.ServiceLibrary.csprojResolveAssemblyReference.cache
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\obj\Debug\SuperZapatos.InventoryControl.Impl.ServiceLibrary.dll
+D:\SuperZapatos\SuperZapatos.InventoryControl.Impl.ServiceLibrary\obj\Debug\SuperZapatos.InventoryControl.Impl.ServiceLibrary.pdb

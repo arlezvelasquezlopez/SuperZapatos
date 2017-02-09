@@ -1,0 +1,12 @@
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\bin\Debug\SuperZapatos.InvetoryControl.Infrastructure.dll.config
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\bin\Debug\SuperZapatos.InvetoryControl.Infrastructure.dll
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\bin\Debug\SuperZapatos.InvetoryControl.Infrastructure.pdb
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\bin\Debug\EntityFramework.dll
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\bin\Debug\SuperZapatos.InventoryContro.Library.dll
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\bin\Debug\SuperZapatos.InventoryContro.Library.pdb
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\bin\Debug\EntityFramework.xml
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\obj\Debug\SuperZapatos.InvetoryControl.Infrastructure.csprojResolveAssemblyReference.cache
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\obj\Debug\SuperZapatos.InvetoryControl.Infrastructure.dll
+D:\SuperZapatos\SuperZapatos.InvetoryControl.Infrastructure\obj\Debug\SuperZapatos.InvetoryControl.Infrastructure.pdb

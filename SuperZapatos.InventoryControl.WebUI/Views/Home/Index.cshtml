@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+}
+
+<div class="jumbotron">
+   Bienvenido al control de inventario de Súper Zapatos. 
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+        <h2>Módulo de artículos</h2>
+        <p>
+            Encontrarás toda la administración respecto a los artículos que están en las tiendas. 
+        </p>
+        <p>@Html.ActionLink("Ir a módulo de artículos", "Index", "Article")      </p>
+    </div>
+    <div class="col-md-2">
+        <h2>Módulo de tiendas</h2>
+        <p>Encontrarás toda la administración respecto a las tiendas de Súper Zapatos</p>
+        <p>@Html.ActionLink("Ir a módulo de tiendas", "Index", "Store")      </p>
+    </div>    
+</div>

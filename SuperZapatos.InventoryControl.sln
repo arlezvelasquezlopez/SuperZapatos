@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Modeling and Design", "0 - Modeling and Design", "{09643795-86DB-4FC9-8B17-50B1FE96CCF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Layers", "1 - Layers", "{5C44564F-0352-4BC8-AEF5-74C1F8B125D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Presentation", "1.1 - Presentation", "{60CA0A91-3EC5-4E59-BA29-D05711CC2025}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Distributed Services", "1.2 - Distributed Services", "{0DCABD3E-FC0C-4BB7-89B1-496C2C49ACE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 - Application", "1.3 - Application", "{C606D4D5-A76A-494B-8162-20FEE414184A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4 - Domain", "1.4 - Domain", "{42907FFE-1670-435A-A555-3D6F6210FAC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5 - Infrastructure", "1.5 - Infrastructure", "{9408E3AB-1B04-4C78-A2D8-276F1EDE1CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4.1 - Core", "1.4.1 - Core", "{C40E2EC6-8892-4E12-93FE-CBB4E208C7E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5.1 - Data", "1.5.1 - Data", "{AF04092A-F52D-47AB-A187-FD3E4D05DFE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.InvetoryControl.Infrastructure", "SuperZapatos.InvetoryControl.Infrastructure\SuperZapatos.InvetoryControl.Infrastructure.csproj", "{08980B78-035B-49F7-9D2F-087D6C5EAA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.InventoryContro.Library", "SuperZapatos.InventoryContro.Library\SuperZapatos.InventoryContro.Library.csproj", "{75379C7F-DD08-4DF3-A8E6-9F95FB4E7D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.InventoryControl.Contracts.ServiceLibrary", "SuperZapatos.InventoryControl.Contracts.ServiceLibrary\SuperZapatos.InventoryControl.Contracts.ServiceLibrary.csproj", "{BC39B449-2848-4EDA-BF3A-40172B6A4B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.InventoryControl.Impl.ServiceLibrary", "SuperZapatos.InventoryControl.Impl.ServiceLibrary\SuperZapatos.InventoryControl.Impl.ServiceLibrary.csproj", "{E4F854AC-516C-467D-8A68-19409F2794FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.InventoryControl.WebUI", "SuperZapatos.InventoryControl.WebUI\SuperZapatos.InventoryControl.WebUI.csproj", "{C90D79FC-24BC-4498-91FB-F83683504E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.InventoryControl.API.REST", "SuperZapatos.InventoryControl.API.REST\SuperZapatos.InventoryControl.API.REST.csproj", "{8BAA903C-53F2-4623-AA90-81DFA0B5C49A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08980B78-035B-49F7-9D2F-087D6C5EAA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08980B78-035B-49F7-9D2F-087D6C5EAA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08980B78-035B-49F7-9D2F-087D6C5EAA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08980B78-035B-49F7-9D2F-087D6C5EAA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75379C7F-DD08-4DF3-A8E6-9F95FB4E7D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75379C7F-DD08-4DF3-A8E6-9F95FB4E7D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75379C7F-DD08-4DF3-A8E6-9F95FB4E7D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75379C7F-DD08-4DF3-A8E6-9F95FB4E7D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC39B449-2848-4EDA-BF3A-40172B6A4B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC39B449-2848-4EDA-BF3A-40172B6A4B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC39B449-2848-4EDA-BF3A-40172B6A4B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC39B449-2848-4EDA-BF3A-40172B6A4B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F854AC-516C-467D-8A68-19409F2794FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F854AC-516C-467D-8A68-19409F2794FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F854AC-516C-467D-8A68-19409F2794FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F854AC-516C-467D-8A68-19409F2794FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90D79FC-24BC-4498-91FB-F83683504E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90D79FC-24BC-4498-91FB-F83683504E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90D79FC-24BC-4498-91FB-F83683504E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90D79FC-24BC-4498-91FB-F83683504E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BAA903C-53F2-4623-AA90-81DFA0B5C49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAA903C-53F2-4623-AA90-81DFA0B5C49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAA903C-53F2-4623-AA90-81DFA0B5C49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAA903C-53F2-4623-AA90-81DFA0B5C49A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60CA0A91-3EC5-4E59-BA29-D05711CC2025} = {5C44564F-0352-4BC8-AEF5-74C1F8B125D9}
+		{0DCABD3E-FC0C-4BB7-89B1-496C2C49ACE1} = {5C44564F-0352-4BC8-AEF5-74C1F8B125D9}
+		{C606D4D5-A76A-494B-8162-20FEE414184A} = {5C44564F-0352-4BC8-AEF5-74C1F8B125D9}
+		{42907FFE-1670-435A-A555-3D6F6210FAC7} = {5C44564F-0352-4BC8-AEF5-74C1F8B125D9}
+		{9408E3AB-1B04-4C78-A2D8-276F1EDE1CF1} = {5C44564F-0352-4BC8-AEF5-74C1F8B125D9}
+		{C40E2EC6-8892-4E12-93FE-CBB4E208C7E8} = {42907FFE-1670-435A-A555-3D6F6210FAC7}
+		{AF04092A-F52D-47AB-A187-FD3E4D05DFE2} = {9408E3AB-1B04-4C78-A2D8-276F1EDE1CF1}
+		{08980B78-035B-49F7-9D2F-087D6C5EAA57} = {AF04092A-F52D-47AB-A187-FD3E4D05DFE2}
+		{75379C7F-DD08-4DF3-A8E6-9F95FB4E7D79} = {C40E2EC6-8892-4E12-93FE-CBB4E208C7E8}
+		{BC39B449-2848-4EDA-BF3A-40172B6A4B2A} = {C606D4D5-A76A-494B-8162-20FEE414184A}
+		{E4F854AC-516C-467D-8A68-19409F2794FB} = {C606D4D5-A76A-494B-8162-20FEE414184A}
+		{C90D79FC-24BC-4498-91FB-F83683504E55} = {60CA0A91-3EC5-4E59-BA29-D05711CC2025}
+		{8BAA903C-53F2-4623-AA90-81DFA0B5C49A} = {0DCABD3E-FC0C-4BB7-89B1-496C2C49ACE1}
+	EndGlobalSection
+EndGlobal

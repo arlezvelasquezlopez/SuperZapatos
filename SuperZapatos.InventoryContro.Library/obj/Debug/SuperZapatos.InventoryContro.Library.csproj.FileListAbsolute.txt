@@ -1,0 +1,5 @@
+D:\SuperZapatos\SuperZapatos.InventoryContro.Library\bin\Debug\SuperZapatos.InventoryContro.Library.dll
+D:\SuperZapatos\SuperZapatos.InventoryContro.Library\bin\Debug\SuperZapatos.InventoryContro.Library.pdb
+D:\SuperZapatos\SuperZapatos.InventoryContro.Library\obj\Debug\SuperZapatos.InventoryContro.Library.dll
+D:\SuperZapatos\SuperZapatos.InventoryContro.Library\obj\Debug\SuperZapatos.InventoryContro.Library.pdb
+D:\SuperZapatos\SuperZapatos.InventoryContro.Library\obj\Debug\SuperZapatos.InventoryContro.Library.csprojResolveAssemblyReference.cache
