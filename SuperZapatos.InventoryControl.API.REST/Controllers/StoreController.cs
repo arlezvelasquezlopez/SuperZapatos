@@ -1,23 +1,21 @@
 ﻿
 
+using SuperZapatos.InventoryControl.API.REST.App_Start;
 using SuperZapatos.InventoryControl.Contracts.ServiceLibrary.Contracts;
-using SuperZapatos.InventoryControl.Contracts.ServiceLibrary.DTOs;
-using SuperZapatos.InventoryControl.Impl.ServiceLibrary.Impl;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
-using System.Web.Http.Results;
 
 namespace SuperZapatos.InventoryControl.API.REST.Controllers
 {
+    [BasicAuthenticationFilter]
     public class StoreController : ApiController
     {
 
         private IStoreAppplicationService _storeApplicationService;
 
-        public StoreController()
+        public StoreController(IStoreAppplicationService storeAppplicationService)
         {
-            _storeApplicationService = new StoreApplicationService();
+            _storeApplicationService = storeAppplicationService;
         }
 
         [Route("services/stores")]

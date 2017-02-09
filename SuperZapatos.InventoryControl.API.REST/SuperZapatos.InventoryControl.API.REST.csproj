@@ -47,12 +47,28 @@
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Autofac, Version=4.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.3.0\lib\net45\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Mvc5.4.0.1\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Integration.WebApi, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.WebApi2.4.0.1\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Fasterflect, Version=2.1.3.0, Culture=neutral, PublicKeyToken=38d18473284c1ca7, processorArchitecture=MSIL">
+      <HintPath>..\packages\fasterflect.2.1.3\lib\net40\Fasterflect.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -155,11 +171,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ArticleController.cs" />
-    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\DIGlobalRegister.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -187,6 +203,10 @@
     <Folder Include="Views\Store\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SuperZapatos.InventoryContro.Library\SuperZapatos.InventoryContro.Library.csproj">
+      <Project>{75379c7f-dd08-4df3-a8e6-9f95fb4e7d79}</Project>
+      <Name>SuperZapatos.InventoryContro.Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SuperZapatos.InventoryControl.Contracts.ServiceLibrary\SuperZapatos.InventoryControl.Contracts.ServiceLibrary.csproj">
       <Project>{BC39B449-2848-4EDA-BF3A-40172B6A4B2A}</Project>
       <Name>SuperZapatos.InventoryControl.Contracts.ServiceLibrary</Name>
@@ -194,6 +214,10 @@
     <ProjectReference Include="..\SuperZapatos.InventoryControl.Impl.ServiceLibrary\SuperZapatos.InventoryControl.Impl.ServiceLibrary.csproj">
       <Project>{E4F854AC-516C-467D-8A68-19409F2794FB}</Project>
       <Name>SuperZapatos.InventoryControl.Impl.ServiceLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperZapatos.InvetoryControl.Infrastructure\SuperZapatos.InvetoryControl.Infrastructure.csproj">
+      <Project>{08980b78-035b-49f7-9d2f-087d6c5eaa57}</Project>
+      <Name>SuperZapatos.InvetoryControl.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

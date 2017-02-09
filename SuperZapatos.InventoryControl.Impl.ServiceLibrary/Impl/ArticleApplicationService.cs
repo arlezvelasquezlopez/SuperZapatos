@@ -14,9 +14,9 @@ namespace SuperZapatos.InventoryControl.Impl.ServiceLibrary.Impl
 
         protected readonly IInventoryControlUnitOfWork _inventoryControlUnitOfWork;
 
-        public ArticleApplicationService()
+        public ArticleApplicationService(IInventoryControlUnitOfWork inventoryControlUnitOfWork)
         {
-            _inventoryControlUnitOfWork = new InventoryControlUnitOfWork();
+            _inventoryControlUnitOfWork = inventoryControlUnitOfWork;
         }
         public int Create(ArticleDTO articleDto)
         {

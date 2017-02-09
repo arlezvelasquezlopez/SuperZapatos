@@ -14,9 +14,9 @@ namespace SuperZapatos.InventoryControl.API.REST.Controllers
 
 
        
-        public ArticleController()
+        public ArticleController(IArticleApplicationService articleApplicationService)
         {
-            _articleApplicationService = new ArticleApplicationService();
+            _articleApplicationService = articleApplicationService;
         }
 
        

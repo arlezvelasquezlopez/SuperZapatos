@@ -45,19 +45,11 @@ namespace SuperZapatos.InventoryControl.API.REST.App_Start
                 {                    
                     Challenge(actionContext);                   
                     return;
-
-
-
                 }
 
                 var principal = new GenericPrincipal(identity, null);
 
-                Thread.CurrentPrincipal = principal;
-
-                // inside of ASP.NET this is required
-                //if (HttpContext.Current != null)
-                //    HttpContext.Current.User = principal;
-
+                Thread.CurrentPrincipal = principal;     
                 base.OnAuthorization(actionContext);
             }
         }
