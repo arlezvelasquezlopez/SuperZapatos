@@ -16,7 +16,7 @@ namespace SuperZapatos.InventoryControl.API.REST
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            GlobalConfiguration.Configuration.Filters.Add(new BasicAuthenticationFilter());
+            //GlobalConfiguration.Configuration.Filters.Add(new BasicAuthenticationFilter());
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)
