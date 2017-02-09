@@ -1,5 +1,4 @@
 ﻿using SuperZapatos.InventoryControl.Contracts.ServiceLibrary.Contracts;
-using SuperZapatos.InventoryControl.Impl.ServiceLibrary.Impl;
 using SuperZapatos.InventoryControl.WebUI.Helpers;
 using SuperZapatos.InventoryControl.WebUI.Models;
 using System;
@@ -14,9 +13,10 @@ namespace SuperZapatos.InventoryControl.WebUI.Controllers
 
         private IStoreAppplicationService _storeApplicationService;
 
-        public StoreController()
+        public StoreController(IStoreAppplicationService storeApplicationService)
         {
-            _storeApplicationService = new StoreApplicationService();
+
+            _storeApplicationService = storeApplicationService;
         }
 
         public ActionResult Index()

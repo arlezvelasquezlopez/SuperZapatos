@@ -1,5 +1,4 @@
 ﻿using SuperZapatos.InventoryControl.Contracts.ServiceLibrary.Contracts;
-using SuperZapatos.InventoryControl.Impl.ServiceLibrary.Impl;
 using SuperZapatos.InventoryControl.WebUI.Models;
 using System.Web.Mvc;
 using System;
@@ -15,10 +14,10 @@ namespace SuperZapatos.InventoryControl.WebUI.Controllers
         private IStoreAppplicationService _storeApplicationService;
        
 
-        public ArticleController()
+        public ArticleController(IArticleApplicationService articleApplicationService, IStoreAppplicationService storeApplicationService)
         {
-            _articleApplicationService = new ArticleApplicationService();
-            _storeApplicationService = new StoreApplicationService();
+            _articleApplicationService = articleApplicationService;
+            _storeApplicationService = storeApplicationService;
             ViewBag.VBStoreList = new SelectList(MappingHelper.MappingToStoreModelCollection(_storeApplicationService.GetAll().ToList()), "Id", "Name");
         }
 
