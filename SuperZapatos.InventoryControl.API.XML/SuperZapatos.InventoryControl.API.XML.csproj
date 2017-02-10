@@ -153,14 +153,11 @@
     </Compile>
     <Compile Include="Helpers\DIGlobalRegister.cs" />
     <Compile Include="Helpers\MappingHelper.cs" />
-    <Compile Include="Helpers\XmlHelper.cs" />
     <Compile Include="Models\BaseResponse.cs" />
     <Compile Include="Models\ErrorResponse.cs" />
     <Compile Include="Models\SuccessArticleResponse.cs" />
     <Compile Include="Models\SuccessStoreResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Security\BasicAuthenticationAttribute.cs" />
-    <Compile Include="Security\BasicAuthenticationIdentity.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
