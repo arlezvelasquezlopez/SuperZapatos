@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Modeling and Design", "0 - Modeling and Design", "{09643795-86DB-4FC9-8B17-50B1FE96CCF0}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Layers", "1 - Layers", "{5C44564F-0352-4BC8-AEF5-74C1F8B125D9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Presentation", "1.1 - Presentation", "{60CA0A91-3EC5-4E59-BA29-D05711CC2025}"
@@ -32,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.InventoryControl.WebUI", "SuperZapatos.InventoryControl.WebUI\SuperZapatos.InventoryControl.WebUI.csproj", "{C90D79FC-24BC-4498-91FB-F83683504E55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.InventoryControl.API.REST", "SuperZapatos.InventoryControl.API.REST\SuperZapatos.InventoryControl.API.REST.csproj", "{8BAA903C-53F2-4623-AA90-81DFA0B5C49A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.InventoryControl.API.XML", "SuperZapatos.InventoryControl.API.XML\SuperZapatos.InventoryControl.API.XML.csproj", "{28704C30-68D4-4DAC-BE4C-F19E40203D6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +63,10 @@ Global
 		{8BAA903C-53F2-4623-AA90-81DFA0B5C49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BAA903C-53F2-4623-AA90-81DFA0B5C49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BAA903C-53F2-4623-AA90-81DFA0B5C49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28704C30-68D4-4DAC-BE4C-F19E40203D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28704C30-68D4-4DAC-BE4C-F19E40203D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28704C30-68D4-4DAC-BE4C-F19E40203D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28704C30-68D4-4DAC-BE4C-F19E40203D6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,5 +85,6 @@ Global
 		{E4F854AC-516C-467D-8A68-19409F2794FB} = {C606D4D5-A76A-494B-8162-20FEE414184A}
 		{C90D79FC-24BC-4498-91FB-F83683504E55} = {60CA0A91-3EC5-4E59-BA29-D05711CC2025}
 		{8BAA903C-53F2-4623-AA90-81DFA0B5C49A} = {0DCABD3E-FC0C-4BB7-89B1-496C2C49ACE1}
+		{28704C30-68D4-4DAC-BE4C-F19E40203D6C} = {0DCABD3E-FC0C-4BB7-89B1-496C2C49ACE1}
 	EndGlobalSection
 EndGlobal
