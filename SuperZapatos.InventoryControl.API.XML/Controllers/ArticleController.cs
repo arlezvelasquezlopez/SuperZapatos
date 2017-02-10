@@ -1,5 +1,4 @@
 ﻿
-using SuperZapatos.InventoryControl.API.REST.XML.Security;
 using SuperZapatos.InventoryControl.API.XML.Helpers;
 using SuperZapatos.InventoryControl.Contracts.ServiceLibrary.Contracts;
 using System.Diagnostics;
