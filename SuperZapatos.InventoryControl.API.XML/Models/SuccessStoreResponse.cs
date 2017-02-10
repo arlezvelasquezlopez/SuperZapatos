@@ -4,13 +4,13 @@ using System.Xml.Serialization;
 
 namespace SuperZapatos.InventoryControl.API.XML.Models
 {
-    [XmlRoot(ElementName = "", Namespace = "", IsNullable = true)]
+    [XmlRoot(ElementName = "response", Namespace = "", IsNullable = true)]
     public class SuccessStoreResponse: BaseResponse
     {
         [XmlElement("stores")]
         public List<StoreDTO> Stores { get; set; }
 
-        [XmlElement("total_stores")]
+        [XmlElement("total_elements")]
         public int TotalStores { get; set; }
 
         

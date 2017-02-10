@@ -1,17 +1,14 @@
 ﻿
-
-using SuperZapatos.InventoryControl.API.REST.XML.Security;
 using SuperZapatos.InventoryControl.API.XML.Helpers;
 using SuperZapatos.InventoryControl.Contracts.ServiceLibrary.Contracts;
 using System.Diagnostics;
 using System.Linq;
-using System.Net.Http;
-using System.Text;
+
 using System.Web.Http;
 
 namespace SuperZapatos.InventoryControl.API.XML.Controllers
 {
-    [BasicAuthenticationFilter]
+   
     public class StoreController : System.Web.Http.ApiController
     {
         private IStoreAppplicationService _storeApplicationService;

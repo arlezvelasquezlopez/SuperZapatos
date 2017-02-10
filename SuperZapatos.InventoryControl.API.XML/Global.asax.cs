@@ -19,8 +19,8 @@ namespace SuperZapatos.InventoryControl.API.XML
             GlobalConfiguration.Configure(WebApiConfig.Register);
             var promotionsXmlFormatter = GlobalConfiguration.Configuration.Formatters.XmlFormatter;
             promotionsXmlFormatter.SetSerializer<ErrorResponse>(new System.Xml.Serialization.XmlSerializer(typeof(ErrorResponse)));
-            promotionsXmlFormatter.SetSerializer<SuccessStoreResponse>(new System.Xml.Serialization.XmlSerializer(typeof(SuccessArticleResponse)));
-            promotionsXmlFormatter.SetSerializer<SuccessArticleResponse>(new System.Xml.Serialization.XmlSerializer(typeof(SuccessStoreResponse)));
+            promotionsXmlFormatter.SetSerializer<SuccessStoreResponse>(new System.Xml.Serialization.XmlSerializer(typeof(SuccessStoreResponse)));
+            promotionsXmlFormatter.SetSerializer<SuccessArticleResponse>(new System.Xml.Serialization.XmlSerializer(typeof(SuccessArticleResponse)));
             AppDomain currentDomain = AppDomain.CurrentDomain;
             var builder = new Autofac.ContainerBuilder();
             var config = GlobalConfiguration.Configuration;
