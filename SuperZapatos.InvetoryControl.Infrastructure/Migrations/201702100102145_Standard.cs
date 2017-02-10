@@ -1,0 +1,16 @@
+namespace SuperZapatos.InvetoryControl.Infrastructure.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class Standard : DbMigration
+    {
+        public override void Up()
+        {
+        }
+        
+        public override void Down()
+        {
+        }
+    }
+}
