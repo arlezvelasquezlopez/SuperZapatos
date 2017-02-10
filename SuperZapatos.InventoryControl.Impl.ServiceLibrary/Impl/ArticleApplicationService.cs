@@ -26,10 +26,9 @@ namespace SuperZapatos.InventoryControl.Impl.ServiceLibrary.Impl
 
         }
 
-        public int Delete(ArticleDTO articleDto)
+        public int Delete(int id)
         {
-            var ArticleEntity = MappingHelper.MappingToArticleEntity(articleDto);
-            _inventoryControlUnitOfWork.ArticleRepository.Delete(ArticleEntity);
+            _inventoryControlUnitOfWork.ArticleRepository.Delete((_inventoryControlUnitOfWork.ArticleRepository.Find(id)));
             return _inventoryControlUnitOfWork.SaveChanges();
         }
 

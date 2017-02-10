@@ -12,7 +12,7 @@ namespace SuperZapatos.InventoryControl.Contracts.ServiceLibrary.Contracts
         IEnumerable<StoreDTO> GetAll();
         StoreDTO FindById(int id);
         int Create(StoreDTO storeDto);
-        int Delete(StoreDTO storeDto);
+        int Delete(int id);
         int Update(StoreDTO storeDto);
     }
 }

@@ -12,11 +12,13 @@ namespace SuperZapatos.InventoryControl.WebUI.Controllers
     {
 
         private IStoreAppplicationService _storeApplicationService;
+        private IArticleApplicationService _articleApplicationService;
 
-        public StoreController(IStoreAppplicationService storeApplicationService)
+        public StoreController(IStoreAppplicationService storeApplicationService, IArticleApplicationService articleApplicationService)
         {
 
             _storeApplicationService = storeApplicationService;
+            _articleApplicationService = articleApplicationService;
         }
 
         public ActionResult Index()
@@ -116,13 +118,17 @@ namespace SuperZapatos.InventoryControl.WebUI.Controllers
 
 
         [HttpPost]
-        public ActionResult Delete(StoreDataModel storeDataModel)
+        public ActionResult Delete(int id, FormCollection collection)
         {
             try
             {
-
-                var storeDto = MappingHelper.MappingToStoreDataModel(_storeApplicationService.FindById(storeDataModel.Id));
-                _storeApplicationService.Delete(MappingHelper.MappingToStoreDTO(storeDto));
+                var storesInArticles = _articleApplicationService.GetAll();
+                if (storesInArticles.Any(x => x.StoreId == id))
+                {
+                    ViewBag.MessageError = "Existen artículos con esta tienda asociada.";
+                    return View("Error");
+                }
+                _storeApplicationService.Delete(id);
                 return RedirectToAction("Index");
             }
             catch (Exception ex)

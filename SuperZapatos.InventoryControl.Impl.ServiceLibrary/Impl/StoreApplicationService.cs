@@ -26,10 +26,10 @@ namespace SuperZapatos.InventoryControl.Impl.ServiceLibrary.Impl
             
         }      
 
-        public int Delete(StoreDTO storeDto)
+        public int Delete(int id)
         {
-            var storeEntity = MappingHelper.MappingToStoreEntity(storeDto);
-            _inventoryControlUnitOfWork.StoreRepository.Delete(storeEntity);
+            
+            _inventoryControlUnitOfWork.StoreRepository.Delete(_inventoryControlUnitOfWork.StoreRepository.Find(id));
             return _inventoryControlUnitOfWork.SaveChanges();
         }       
 

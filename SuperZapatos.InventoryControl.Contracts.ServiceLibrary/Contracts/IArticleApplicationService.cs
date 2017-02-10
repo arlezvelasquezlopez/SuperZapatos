@@ -8,7 +8,7 @@ namespace SuperZapatos.InventoryControl.Contracts.ServiceLibrary.Contracts
         IEnumerable<ArticleDTO> GetAll();
         ArticleDTO FindById(int id);
         int Create(ArticleDTO article);
-        int Delete(ArticleDTO articleDto);
+        int Delete(int id);
         int Update(ArticleDTO articleDto);
     }
 }

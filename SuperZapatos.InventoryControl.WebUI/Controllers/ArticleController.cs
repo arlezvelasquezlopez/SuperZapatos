@@ -134,12 +134,11 @@ namespace SuperZapatos.InventoryControl.WebUI.Controllers
         }
     
         [HttpPost]
-        public ActionResult Delete(ArticleDataModel article)
+        public ActionResult Delete(int id, FormCollection collection)
         {
             try
-            {
-                var articleDto = MappingHelper.MappingToArticleDataModel(_articleApplicationService.FindById(article.Id));
-                _articleApplicationService.Delete(MappingHelper.MappingToArticleDTO(article));
+            {          
+                _articleApplicationService.Delete(id);
                 return RedirectToAction("Index");
             }
             catch (Exception ex)
