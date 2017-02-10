@@ -8,8 +8,6 @@ using System.Web.Http;
 
 namespace SuperZapatos.InventoryControl.API.REST.Controllers
 {
-
-    [BasicAuthenticationFilter]
     public class ArticleController : ApiController
     {
         private IArticleApplicationService _articleApplicationService;
